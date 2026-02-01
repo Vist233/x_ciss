@@ -1,10 +1,10 @@
-"""页面1: 问诊 (录音文本 + 相似病例推荐)"""
+"""页面1: 问诊 (录音文本 + 相似病例推荐) - Main App Entry"""
 import streamlit as st
 import sys
 from pathlib import Path
 
-# 添加父目录到路径
-sys.path.append(str(Path(__file__).parent.parent))
+# Adjust path if needed, though running from root usually works well for utils
+# sys.path.append(str(Path(__file__).parent.parent))
 
 from utils.data_loader import (
     load_transcript,
@@ -13,6 +13,13 @@ from utils.data_loader import (
 )
 from utils.ui_components import render_case_card
 
+# 页面配置
+st.set_page_config(
+    page_title="Doctor Manager - 问诊",
+    page_icon="🏥",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
 
 def render_page1():
     """渲染问诊页面"""
