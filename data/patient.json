@@ -1,0 +1,10 @@
+{
+    "patient_id": "2303270512",
+    "name": "李芳",
+    "gender": "女",
+    "age": 28,
+    "department": "耳鼻喉科门诊",
+    "visit_type": "门诊",
+    "visit_date": "2023-03-27",
+    "chief_complaint": "阵发性喷嚏、流清涕伴鼻痒1个月"
+}
