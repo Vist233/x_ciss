@@ -37,12 +37,21 @@ def render_page1():
     # 加载对话数据（用于统计）
     transcript = load_transcript()
     
-    highlights = load_dialogue_highlights()
-    if highlights:
-        for highlight in highlights:
-            st.markdown(f"{highlight}")
+    # highlights = load_dialogue_highlights()
+    # highlights = [
+    #     "阵发性喷嚏，晨起及冷空气刺激后明显",
+    #     "大量清水样鼻涕",
+    #     "鼻痒、眼痒",
+    #     "症状持续约1个月",
+    #     "既往无明确药物过敏史"
+    # ]
+    # 根据用户要求，显示最后5句对话
+    if transcript:
+        recent_dialogue = transcript[-5:]
+        for item in recent_dialogue:
+            st.markdown(f"{item['text']}")
     else:
-        st.info("暂无要点摘要")
+        st.info("暂无对话记录")
     
     # 统计信息
     # st.markdown("<br>", unsafe_allow_html=True)
