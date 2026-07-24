@@ -1,0 +1,116 @@
+[
+    {
+        "order": 1,
+        "order_name": "过敏原特异性IgE检测",
+        "priority": "高",
+        "reason": "明确致敏因素，指导治疗",
+        "tags": [
+            "过敏",
+            "血液"
+        ]
+    },
+    {
+        "order": 2,
+        "order_name": "鼻内镜检查",
+        "priority": "高",
+        "reason": "观察鼻腔黏膜、鼻甲及鼻道通畅情况",
+        "tags": [
+            "内镜",
+            "影像"
+        ]
+    },
+    {
+        "order": 3,
+        "order_name": "鼻分泌物涂片",
+        "priority": "中",
+        "reason": "嗜酸性粒细胞计数，辅助过敏诊断",
+        "tags": [
+            "检验"
+        ]
+    },
+    {
+        "order": 4,
+        "order_name": "血常规 (CBC)",
+        "priority": "高",
+        "reason": "基础感染/贫血筛查",
+        "tags": [
+            "常规",
+            "血液"
+        ]
+    },
+    {
+        "order": 5,
+        "order_name": "C反应蛋白 (CRP)",
+        "priority": "高",
+        "reason": "评估炎症反应程度",
+        "tags": [
+            "常规",
+            "炎症"
+        ]
+    },
+    {
+        "order": 6,
+        "order_name": "鼻窦CT平扫",
+        "priority": "中",
+        "reason": "排除鼻窦炎及占位性病变",
+        "tags": [
+            "影像",
+            "辐射"
+        ]
+    },
+    {
+        "order": 7,
+        "order_name": "肺功能检查",
+        "priority": "中",
+        "reason": "评估是否存在气道高反应性(合并哮喘风险)",
+        "tags": [
+            "功能"
+        ]
+    },
+    {
+        "order": 8,
+        "order_name": "降钙素原 (PCT)",
+        "priority": "中",
+        "reason": "鉴别细菌/病毒感染",
+        "tags": [
+            "感染"
+        ]
+    },
+    {
+        "order": 9,
+        "order_name": "肝肾功能常规",
+        "priority": "低",
+        "reason": "用药前基础代谢机能评估",
+        "tags": [
+            "生化"
+        ]
+    },
+    {
+        "order": 10,
+        "order_name": "电解质六项",
+        "priority": "低",
+        "reason": "排除电解质紊乱",
+        "tags": [
+            "生化"
+        ]
+    },
+    {
+        "order": 11,
+        "order_name": "心电图 (ECG)",
+        "priority": "低",
+        "reason": "排除心脏基础疾病",
+        "tags": [
+            "功能"
+        ]
+    },
+    {
+        "order": 12,
+        "order_name": "胸部X线片",
+        "priority": "低",
+        "reason": "排除下呼吸道感染",
+        "tags": [
+            "影像",
+            "辐射"
+        ]
+    }
+]
