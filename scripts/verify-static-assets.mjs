@@ -2,7 +2,7 @@ import { access } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
 
-const webDir = path.dirname(fileURLToPath(import.meta.url));
+const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const assets = [
   "data/abnormal_summary.json",
   "data/dialogue_highlights.json",
@@ -25,7 +25,7 @@ const assets = [
 const missing = [];
 for (const asset of assets) {
   try {
-    await access(path.join(webDir, asset));
+    await access(path.join(repoRoot, "web", asset));
   } catch {
     missing.push(asset);
   }

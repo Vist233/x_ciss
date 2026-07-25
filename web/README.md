@@ -77,7 +77,7 @@ python3 -m http.server 8787
 部署到 Cloudflare Pages 项目 `ciss`：
 
 ```bash
-node web/verify-static-assets.mjs
+node scripts/verify-static-assets.mjs
 wrangler pages deploy web --project-name=ciss --branch=main
 ```
 
@@ -91,7 +91,7 @@ npx wrangler deploy
 
 ### 发布前完整性检查
 
-部署前运行 `node web/verify-static-assets.mjs`。它会确认页面依赖的 JSON 和 WebP
+部署前运行 `node scripts/verify-static-assets.mjs`。它会确认页面依赖的 JSON 和 WebP
 静态资源都在 `web/data/` 中，避免只发布页面骨架、遗漏数据文件。
 
 ---
