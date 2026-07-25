@@ -81,6 +81,14 @@ node web/verify-static-assets.mjs
 wrangler pages deploy web --project-name=ciss --branch=main
 ```
 
+个人域名 `hospital.zhangyvjing.com` 由仓库根目录的 Cloudflare Worker 配置托管：
+
+```bash
+npx wrangler deploy
+```
+
+该 Worker 仅分发同一份 `web/` 静态资源；`custom_domain` 会由 Cloudflare 自动配置代理 DNS 与 TLS。Pages 地址继续保留为备用入口。
+
 ### 发布前完整性检查
 
 部署前运行 `node web/verify-static-assets.mjs`。它会确认页面依赖的 JSON 和 WebP
