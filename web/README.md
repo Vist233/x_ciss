@@ -1,6 +1,6 @@
 # 线上静态演示
 
-`web/` 是 [智能医生工作台](https://hospital.zhangyvjing.com/) 的线上静态演示。它由原生 HTML、CSS 和 JavaScript 构成，浏览器直接读取 `data/` 中的示例 JSON 与图片并完成交互。
+`web/` 是 [智能医生工作台](https://zhangyvjing.com/x_ciss/) 的线上静态演示。它由原生 HTML、CSS 和 JavaScript 构成，浏览器直接读取 `data/` 中的示例 JSON 与图片并完成交互。
 
 ## 本地预览
 
