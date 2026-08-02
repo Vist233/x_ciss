@@ -26,12 +26,10 @@
 
 | 部分 | 作用 | 如何运行 |
 | --- | --- | --- |
-| `web/` | 当前线上静态演示。浏览器读取 JSON 和图片示例数据，在本地完成页面交互。 | 任意静态服务器，或由 Cloudflare 分发。 |
-| `worker.js` + `wrangler.jsonc` | Cloudflare Worker 配置。Worker 仅将请求交给 `web/` 静态资源。 | `npx wrangler deploy` |
+| `web/` | 当前线上静态演示。浏览器读取 JSON 和图片示例数据，在本地完成页面交互。 | 任意静态服务器。 |
 | `streamlit/` | 黑客松期间的 Streamlit 原型，保留作流程来源与本地参考，不参与线上部署。 | 进入目录后运行 `streamlit run app.py`。 |
-| `scripts/verify-static-assets.mjs` | 发布前检查线上演示所需的静态数据是否齐全。 | `node scripts/verify-static-assets.mjs` |
 
-## 本地运行与发布
+## 本地预览
 
 运行线上静态演示：
 
@@ -41,13 +39,6 @@ python3 -m http.server 8787
 ```
 
 打开 `http://127.0.0.1:8787/`。
-
-发布前校验和部署：
-
-```bash
-node scripts/verify-static-assets.mjs
-npx wrangler deploy
-```
 
 运行保留的 Streamlit 原型：
 
