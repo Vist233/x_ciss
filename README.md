@@ -8,7 +8,7 @@
 
 ## 在线体验
 
-[体验地址：hospital.zhangyvjing.com](https://hospital.zhangyvjing.com/)
+体验地址：[hospital.zhangyvjing.com](https://hospital.zhangyvjing.com/)
 
 ## 如何体验
 
