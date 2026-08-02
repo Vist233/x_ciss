@@ -8,7 +8,6 @@ from pathlib import Path
 
 from utils.data_loader import (
     load_transcript,
-    load_dialogue_highlights,
     load_similar_cases
 )
 from utils.ui_components import render_case_card
@@ -44,7 +43,6 @@ def render_page1():
     # 加载对话数据（用于统计）
     transcript = load_transcript()
     
-    # highlights = load_dialogue_highlights()
     # highlights = [
     #     "阵发性喷嚏，晨起及冷空气刺激后明显",
     #     "大量清水样鼻涕",

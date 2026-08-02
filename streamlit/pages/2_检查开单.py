@@ -6,9 +6,7 @@ from pathlib import Path
 sys.path.append(str(Path(__file__).parent.parent))
 
 from utils.data_loader import (
-    load_order_sets,
-    load_orders_ranked,
-    load_order_warnings
+    load_orders_ranked
 )
 from utils.ui_components import render_badge, render_reference_card
 

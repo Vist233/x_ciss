@@ -8,8 +8,7 @@
 
 ## 在线体验
 
-- 主站：[hospital.zhangyvjing.com](https://hospital.zhangyvjing.com/)
-- 备用地址：[ciss-101.pages.dev](https://ciss-101.pages.dev/)
+[体验地址：hospital.zhangyvjing.com](https://hospital.zhangyvjing.com/)
 
 ## 如何体验
 
