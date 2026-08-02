@@ -8,7 +8,7 @@
 
 ## 在线体验
 
-体验地址：[zhangyvjing.com/x_ciss](https://zhangyvjing.com/x_ciss/)
+体验地址：[zhangyvjing.com/githubpages/x_ciss](https://zhangyvjing.com/githubpages/x_ciss/)
 
 ## 如何体验
 
